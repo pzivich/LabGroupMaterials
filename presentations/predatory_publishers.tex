@@ -1,0 +1,123 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Copenhagen}
+\usecolortheme{whale}
+\usefonttheme[onlymath]{serif}
+
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+\usepackage{empheq}
+\usepackage{fancybox}
+\usepackage{annotate-equations}
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc, shapes.geometric, shapes.multipart, 
+	shapes, arrows.meta, arrows, 
+	decorations.markings, external, trees}
+\tikzstyle{Arrow} = [
+thick, 
+decoration={
+	markings,
+	mark=at position 1 with {
+		\arrow[thick]{latex}
+	}
+}, 
+shorten >= 3pt, preaction = {decorate}
+]
+
+\definecolor{teel}{HTML}{00AEB3}
+\definecolor{redorange}{HTML}{F26035}
+\definecolor{darkred}{HTML}{8B0000}
+\definecolor{darkblue}{HTML}{00008B}
+\definecolor{darkgreen}{HTML}{06402B}
+\definecolor{CarolinaBlue}{HTML}{4B9CD3}
+\definecolor{deepsea}{HTML}{123456}
+\definecolor{sharedblue}{HTML}{009292}
+\definecolor{distalblue}{HTML}{490092}
+
+\usecolortheme[named=CarolinaBlue]{structure}
+
+
+\title[Predatory Publishers]{Predatory Publishers}
+\author[Paul Zivich]{Zivich Research Group}
+\date{~}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}  % gets rid of the dumb navigation symbols
+\setbeamertemplate{page number in head/foot}{\insertframenumber}  % adds slide #
+\setbeamertemplate{headline}{}
+
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Predatory Publishers}
+	Predatory Journals
+	\begin{itemize}
+		\item Business model is based on mimicking academic journals and charging article processing charges
+		\item These publishers are not real academic journals\footnote[frame]{Some real academic journals adopt predatory practices, but that is a different discussion}
+	\end{itemize}
+	Predatory Conferences
+	\begin{itemize}
+		\item Same idea, but conferences instead of journals
+	\end{itemize}
+	~\\
+	As you go along in your career, you will come across both
+\end{frame}
+
+\begin{frame}{Examples}
+	\centering
+	\includegraphics[width=0.75\linewidth]{images/predatory_journal1.png}
+\end{frame}
+
+\begin{frame}{Examples}
+	\centering
+	\includegraphics[width=0.75\linewidth]{images/predatory_journal2.png}
+\end{frame}
+
+\begin{frame}{Examples}
+	\centering
+	\includegraphics[width=0.6\linewidth]{images/predatory_journal3.png}
+\end{frame}
+
+\begin{frame}{Examples}
+	\centering
+	\includegraphics[width=0.9\linewidth]{images/predatory_conf1.png}
+\end{frame}
+
+\begin{frame}{Examples}
+	\centering
+	\includegraphics[width=0.9\linewidth]{images/predatory_conf2.png}
+\end{frame}
+
+\begin{frame}{Considerations}
+	\textbf{NEVER} click links in these emails
+	~\\~\\
+	Warning Signs
+	\begin{itemize}
+		\item Have not heard of publisher or journal before
+		\item Out-of-place phrasing or formatting
+		\item Rush for submissions or for a special issue
+		\item Journal's focus is outside the subject area you work in
+	\end{itemize}
+	~\\
+	If you are in doubt, you can reach out to a Health Sciences Librarian
+	\begin{itemize}
+		\item They can do some investigative work about the journal
+	\end{itemize}
+\end{frame}
+
+\end{document}

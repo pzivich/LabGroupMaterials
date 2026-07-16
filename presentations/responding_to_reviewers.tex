@@ -1,0 +1,154 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Copenhagen}
+\usecolortheme{whale}
+\usefonttheme[onlymath]{serif}
+
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+\usepackage{empheq}
+\usepackage{fancybox}
+\usepackage{annotate-equations}
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc, shapes.geometric, shapes.multipart, 
+	shapes, arrows.meta, arrows, 
+	decorations.markings, external, trees}
+\tikzstyle{Arrow} = [
+thick, 
+decoration={
+	markings,
+	mark=at position 1 with {
+		\arrow[thick]{latex}
+	}
+}, 
+shorten >= 3pt, preaction = {decorate}
+]
+
+\definecolor{teel}{HTML}{00AEB3}
+\definecolor{redorange}{HTML}{F26035}
+\definecolor{darkred}{HTML}{8B0000}
+\definecolor{darkblue}{HTML}{00008B}
+\definecolor{darkgreen}{HTML}{06402B}
+\definecolor{CarolinaBlue}{HTML}{4B9CD3}
+\definecolor{deepsea}{HTML}{123456}
+\definecolor{sharedblue}{HTML}{009292}
+\definecolor{distalblue}{HTML}{490092}
+
+\usecolortheme[named=CarolinaBlue]{structure}
+
+
+\title[Revise \& Resubmit]{Responding to Reviewer Comments}
+\author[Paul Zivich]{Zivich Research Group}
+\date{~}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}  % gets rid of the dumb navigation symbols
+\setbeamertemplate{page number in head/foot}{\insertframenumber}  % adds slide #
+\setbeamertemplate{headline}{}
+
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Revise and Resubmit (R\&R)}
+	Nearly all the peer-review papers go through a `revise and resubmit` phase
+	\begin{itemize}
+		\item Receive reviewer comments from peers and have an opportunity to respond
+	\end{itemize}
+	~\\
+	This can be a difficult process, especially earlier on\footnote[frame]{I know of someone who says they celebrate when students post a preprint of their work, as the actual publication process can be stochastic and volatile}
+	\begin{itemize}
+		\item Collection of some advice and practices
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Receiving the Decisions}
+	You get an email in your inbox that has the decision on a paper and comments. Here is what to do
+	\begin{itemize}
+		\item Share with your co-authors (or primary mentor) if they are not CC'd on the decision email
+		\item Briefly read through the reviewer comments
+		\item Unless you can adequately address them all in a couple hours, \textbf{wait at least a day} before revising the paper or drafting responses to the comments\footnote[frame]{Cannot emphasize this enough. Waiting a day will help you adhere to later pieces of advice}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Advice -- General}
+	\begin{itemize}
+		\item Do \textbf{not} take the comments personally
+		\begin{itemize}
+			\item This can be discouraging and emotionally draining. It gets easier as you do it more
+			\item Reviewer feedback is not a statement of your worth
+		\end{itemize}
+		\item Wait at least a day before drafting responses
+		\begin{itemize}
+			\item See previous point for why to take this time
+		\end{itemize}
+		\item Start by drafting responses to each comment prior to actually editing the manuscript or materials. Here, we are developing a \textit{strategy} for how to respond
+		\begin{itemize}
+			\item That strategy should be agreed upon by key authors, if not all authors
+			\item Once that is agreed upon, then manuscript edits can take place
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Advice -- Response Document}
+	\begin{itemize}
+		\item Copy comments (exactly as they are, including grammatical mistakes) into another document and use a number system for reviewers and their comments
+		\item Always put any editor comments (and your responses) at the topic
+		\item When finalizing the response document, note the location (line or page number) of that revision. Quoting the revised text may also be reasonable
+		\begin{itemize}
+			\item Check the journal policies for how they want revisions
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Advice -- Writing Responses}
+	\begin{itemize}
+		\item Be polite. Sometimes reviewers can be cranky,\footnote[frame]{Remember how it feels dealing with a cranky reviewer when you are a peer-reviewer of other's work} but don't return the feeling. You are trying to convince the editor that your paper should be published. Mud-slinging with a reviewer does not help your case
+		\item Be responsive. \textit{As a rule of thumb}, you can only provide a push-back of `no' to a single comment per reviewer. Some modification must be made otherwise
+		\item Misunderstandings are on the author. If a reviewer does not understand something, then it is on us to make it clearer. In general, a peer-reviewer will read your paper more closely than any other of your future readers
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Example}
+	\centering
+	\includegraphics[width=0.85\linewidth]{images/response_letter1.png}
+\end{frame}
+
+\begin{frame}{Example}
+	\centering
+	\includegraphics[width=0.9\linewidth]{images/response_letter2.png}
+\end{frame}
+
+\begin{frame}{Rejections}
+	Sometimes you will receive a rejection 
+	\begin{itemize}
+		\item Before resubmitting, you should consider any peer-review comments you receive
+		\begin{itemize}
+			\item Do the response document drafting, as if you had gotten an R\&R. Again, follow the wait a day rule
+		\end{itemize}
+		\item Use that as a guide to whether modifications should be made
+		\item Don't take it personal. Editors reject papers for a whole host of different reasons
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Open Discussion}
+	\centering
+	\large
+	what is some advice you would give?
+\end{frame}	
+
+\end{document}
