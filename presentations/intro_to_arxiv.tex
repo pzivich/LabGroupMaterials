@@ -1,0 +1,130 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Copenhagen}
+\usecolortheme{whale}
+\usefonttheme[onlymath]{serif}
+
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+\usepackage{empheq}
+\usepackage{fancybox}
+\usepackage{annotate-equations}
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc, shapes.geometric, shapes.multipart, 
+	shapes, arrows.meta, arrows, 
+	decorations.markings, external, trees}
+\tikzstyle{Arrow} = [
+thick, 
+decoration={
+	markings,
+	mark=at position 1 with {
+		\arrow[thick]{latex}
+	}
+}, 
+shorten >= 3pt, preaction = {decorate}
+]
+
+\definecolor{teel}{HTML}{00AEB3}
+\definecolor{redorange}{HTML}{F26035}
+\definecolor{darkred}{HTML}{8B0000}
+\definecolor{darkblue}{HTML}{00008B}
+\definecolor{darkgreen}{HTML}{06402B}
+\definecolor{CarolinaBlue}{HTML}{4B9CD3}
+\definecolor{deepsea}{HTML}{123456}
+\definecolor{sharedblue}{HTML}{009292}
+\definecolor{distalblue}{HTML}{490092}
+
+\usecolortheme[named=CarolinaBlue]{structure}
+
+
+\title[arXiv]{Introduction to arXiv}
+\author[Paul Zivich]{Zivich Research Group}
+\date{~}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}  % gets rid of the dumb navigation symbols
+\setbeamertemplate{page number in head/foot}{\insertframenumber}  % adds slide #
+\setbeamertemplate{headline}{}
+
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{arXiv}
+	What is it?
+	\begin{itemize}
+		\item A server that hosts preprints (versions of papers prior to publication) in physics, math, statistics, computer science
+		\item There are other preprint servers (e.g., medRxiv) but this is the one I mostly use
+	\end{itemize}
+	~\\
+	Why use arXiv?
+	\begin{itemize}
+		\item Make preliminary research freely available and accessible
+		\item Opportunity for wider feedback from peers or technical details for presentations
+		\item `Stake your claim' on a topic while going through peer-review
+	\end{itemize}
+	~\\
+	A quick overview of arXiv
+\end{frame}
+
+\begin{frame}
+	\centering
+	\includegraphics[width=0.99\linewidth]{images/arxiv1.png}
+\end{frame}
+
+\begin{frame}
+	\centering
+	\includegraphics[width=0.95\linewidth]{images/arxiv_login.png}
+\end{frame}
+
+\begin{frame}
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/arxiv_home.png}
+\end{frame}
+
+\begin{frame}
+	\centering
+	\includegraphics[width=0.95\linewidth]{images/arxiv_submission.png}
+\end{frame}
+
+\begin{frame}{Submitting to arXiv}
+	The first time you submit, you will need someone to \textit{endorse} you
+	\begin{itemize}
+		\item This is to prevent spam from being posted
+	\end{itemize}
+	~\\
+	I may be able to endorse you, but I also have other contacts
+	~\\~\\
+	In general, prefers use of \texttt{.tex} files, but can also upload a PDF of a Word doc
+\end{frame}
+
+\begin{frame}
+	\centering
+	\includegraphics[width=0.95\linewidth]{images/arxiv_articles.png}
+\end{frame}
+
+\begin{frame}{Considerations}
+	\begin{itemize}
+		\item Have you discussed with co-authors?
+		\item Have you checked the preprint policies of the journals you may submit to?\footnote[frame]{Most are fine, but some (e.g., \textit{JAMA}) have historically had restrictions}
+		\item Is arXiv the right fit? Or is there a better preprint server for your topic?
+	\end{itemize}
+	~\\
+	In general, I support the use of preprint servers. I think they are particularly valuable for receiving pre-publication feedback and offer a record of how a work changes through peer-review
+\end{frame}
+	
+\end{document}
