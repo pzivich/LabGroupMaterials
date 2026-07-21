@@ -8,17 +8,21 @@ research group. I welcome any feedback on these materials.
 
 ## Mission Statement
 
-The overarching goal of the ZETA research group is to better understand the world through kindness, persistence, and 
-curiosity in order to improve it through reliable evidence. We work towards this goal through a collaborative and 
-interdisciplinary team that emphasizes transparency, reproducibility, creativity, and benevolence.
+The overarching goal of the ZETA research group is to better understand the world through kindness, patience, 
+persistence, and curiosity in order to improve it through reliable evidence. We work towards this goal through a 
+collaborative and interdisciplinary team that emphasizes transparency, reproducibility, creativity, and benevolence. 
+As part of this goal, we will challenge ourselves to be better researchers and people.
 
 ## Expectations
 
 These are some general expectations of research group members, including myself:
+- Review all the materials provided at this webpage.
+- Adhere to the Code of Conduct.
 - Show up on time. Sometimes things happen which prevent timeliness, but do not make a habit of being late.
+- Complete your work on the agreed up timeline(s). Again, circumstances may prevent this but clearly communicate and
+do not make a habit of delays.
 - Do not attend research group meetings if you are sick. Please let me know if you will not attend, but take adequate 
 time to rest and return when you are recovered and healthy.
-- Adhere to the Code of Conduct.
 - Use the `resources/project_checklist` when starting or proposing a new research project.
 - Disclose use of AI/LLMs in accordance with the policies described in `ai_policy`.
 - Mistakes happen, especially when you are learning. Being able to trust each other is more important than never making
@@ -26,7 +30,18 @@ a mistake. If you think you've made a mistake, please talk with me so we can lea
 - My working hours are 9-5 EST Monday through Friday. You are welcome to determine your own working hours, but note that
 I only expect responses during those hours and similarly you should only expect responses from me during those hours.
 Maintaining an appropriate work-life balance is important.
-- Review all the materials provided at this webpage.
+- With written work that has a formal deadline, please provide to any co-authors or other parties at least 2 weeks 
+prior to the deadline.
+
+## Group Materials
+
+- `presentations/`: folder containing continuing education presentations from research group meetings
+- `resources/`: folder containing relevant group-specific resources
+- `ai_policy`: details and policies on the use of large language models
+- `authorship`: guidelines and recommendations for authorship and roles on papers
+- `code_of_conduct`: Code of Conduct for research group members
+- `new_student_checklist`: checklist of items that students joining the research group should consider completing
+- `software`: recommended software programs
 
 ## Meeting Structure
 
@@ -44,12 +59,15 @@ development. If you would like to suggest a reading, please email me or bring up
 You may need additional time for an individual meeting beyond the research group meeting. Please email me to schedule 
 an individual meeting time if needed.
 
-## Group Materials
+## Recommendation Letters
 
-- `presentations/`: folder containing continuing education presentations from research group meetings
-- `resources/`: folder containing relevant group-specific resources
-- `ai_policy`: details and policies on the use of large language models
-- `authorship`: guidelines and recommendations for authorship and roles on papers
-- `code_of_conduct`: Code of Conduct for research group members
-- `new_student_checklist`: checklist of items that students joining the research group should consider completing
-- `software`: recommended software programs
+One aspect of my job is to help you succeed in your career. One aspect of that is writing recommendation letters. If 
+you are a research group member, I am always happy to provide a letter. There are a few steps that will help me to 
+write your letter listed here:
+- Provide details on the position you are applying for (can be the webpage or some other document). This will help me to
+align the letter with what the call for applications requests. If this is a grant, please also provide the aims page to
+me.
+- Provide the most recent copy of your CV.
+- Provide a list of any particular points you would like me to highlight in your letter.
+- Request a letter of recommendation from me noting the deadline. Please try your best to request the letter 4 weeks 
+before the deadline. This will ensure I have adequate time to draft the best letter that I can.
