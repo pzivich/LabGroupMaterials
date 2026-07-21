@@ -40,6 +40,7 @@ prior to the deadline.
 - `ai_policy`: details and policies on the use of large language models
 - `authorship`: guidelines and recommendations for authorship and roles on papers
 - `code_of_conduct`: Code of Conduct for research group members
+- `code_style_guide`: Code style guidelines for the ZETA research group
 - `new_student_checklist`: checklist of items that students joining the research group should consider completing
 - `software`: recommended software programs
 
@@ -58,6 +59,11 @@ development. If you would like to suggest a reading, please email me or bring up
 
 You may need additional time for an individual meeting beyond the research group meeting. Please email me to schedule 
 an individual meeting time if needed.
+
+## Communication
+
+For meetings, my preference is in-person meetings. Otherwise, please contact me via email (this is how I manage my 
+to-do list). 
 
 ## Recommendation Letters
 
