@@ -122,7 +122,8 @@ version as a comment near the other code. Also be sure to use extensive comments
 code works.
 
 Use version control. This can help to catch bugs that might be introduced when editing code. It allows one to restore
-the code to a previous version, which is particularly important for larger projects.
+the code to a previous version, which is particularly important for larger projects. Version control software, like git,
+should be used instead of renaming files by versions or dates.
 
 Develop unit tests. We should verify each non-trivial part of our code operates as intended. This can be validated 
 through the use of unit-tests or through simulation experiments. This should be done whenever coding a new estimator.

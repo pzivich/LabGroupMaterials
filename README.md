@@ -77,3 +77,10 @@ me.
 - Provide a list of any particular points you would like me to highlight in your letter.
 - Request a letter of recommendation from me noting the deadline. Please try your best to request the letter 4 weeks 
 before the deadline. This will ensure I have adequate time to draft the best letter that I can.
+
+## Interacting with the Group Materials
+
+My intention behind using GitHub to manage these materials is to make them easily accessible, track how they are 
+modified, and allow you to suggest modifications. If you have ways to improve these materials or have suggestions,
+please feel free to create a new branch with your suggestions. Alternatively, you can raise an issue on the Issue tab
+and I can make the modifications myself. Overall this is a living, collaborative document between all of us.
