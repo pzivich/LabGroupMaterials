@@ -8,9 +8,6 @@ of information for you to know.
 
 ## Files
 
-`images/`
-- Images used when compiling the presentations from a `.tex` file into a `.pdf`.
-
 `intro_to_arxiv.*`
 - Introduction to the pre-print server arXiv.
 

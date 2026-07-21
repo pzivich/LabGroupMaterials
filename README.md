@@ -1,9 +1,10 @@
 # The Zivich Epidemiologic Theory & Applications (ZETA) Research Group
 
-Hello! This GitHub page serves as an introduction for the ZETA research group regarding policies, expectations, and 
-group resources. The goal of this page is provide details to support research group members reaching their full 
-in potential learning, professional development, and scientific rigor. This also serves as a general introduction for
-those considering joining the ZETA research group. I welcome any feedback on these materials.
+Hello! This GitHub page serves as an introduction for the ZETA research group in the Department of Epidemiology at the
+University of North Carolina at Chapel Hill regarding policies, expectations, and group resources. The goal of this 
+page is provide details to support research group members reaching their full in potential learning, professional 
+development, and scientific rigor. This also serves as a general introduction for those considering joining the ZETA 
+research group. I welcome any feedback on these materials.
 
 ## Mission Statement
 
@@ -48,6 +49,7 @@ an individual meeting time if needed.
 - `presentations/`: folder containing continuing education presentations from research group meetings
 - `resources/`: folder containing relevant group-specific resources
 - `ai_policy`: details and policies on the use of large language models
+- `authorship`: guidelines and recommendations for authorship and roles on papers
 - `code_of_conduct`: Code of Conduct for research group members
 - `new_student_checklist`: checklist of items that students joining the research group should consider completing
 - `software`: recommended software programs
