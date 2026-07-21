@@ -24,6 +24,7 @@ do not make a habit of delays.
 - Do not attend research group meetings if you are sick. Please let me know if you will not attend, but take adequate 
 time to rest and return when you are recovered and healthy.
 - Use the `resources/project_checklist` when starting or proposing a new research project.
+- Maintain a lab notebook while conducting your research project.
 - Disclose use of AI/LLMs in accordance with the policies described in `ai_policy`.
 - Mistakes happen, especially when you are learning. Being able to trust each other is more important than never making
 a mistake. If you think you've made a mistake, please talk with me so we can learn from them. 
@@ -41,6 +42,7 @@ prior to the deadline.
 - `authorship`: guidelines and recommendations for authorship and roles on papers
 - `code_of_conduct`: Code of Conduct for research group members
 - `code_style_guide`: Code style guidelines for the ZETA research group
+- `lab_notebook`: Guidance for creation and maintenance of a laboratory notebook.
 - `new_student_checklist`: checklist of items that students joining the research group should consider completing
 - `software`: recommended software programs
 
@@ -57,8 +59,10 @@ Occasionally we might modify the 80 minutes to discuss a paper we have collectiv
 attendee. These lab meetings can also be used to talk about methods, statistical analyses, new papers, and career 
 development. If you would like to suggest a reading, please email me or bring up the suggested reading during a meeting.
 
-You may need additional time for an individual meeting beyond the research group meeting. Please email me to schedule 
-an individual meeting time if needed.
+An idea behind the choice of group meetings is to provide opportunities for peer-mentorship and feedback. 
+
+You may need additional time for an individual meeting beyond the research group meeting. If you need additional time, 
+I expect you to reach out to me. Please email me to schedule an individual meeting time as needed.
 
 ## Communication
 

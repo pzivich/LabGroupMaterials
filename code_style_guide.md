@@ -15,7 +15,7 @@ than not.
 Each project should have a consistent folder structure. This makes it easy to find files across different projects and
 have documents readily accessible for meetings. Below is a recommended structure that I continue to use
 
-```commandline
+```
 project_name/
     code/
     data/
@@ -84,7 +84,7 @@ this, but they should make sense for the research project you are doing.
 
 Each file should have a header that contains key details, like a title, creator (and editors) of the code, and the
 last modification date. For example,
-```commandline
+```
 #################################################################
 # Project Title
 #   Details about what this script does for the analysis
