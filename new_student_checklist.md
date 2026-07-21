@@ -14,3 +14,8 @@ Responsible Conduct of Research (RCR)
 
 - [ ] Enrolled in the July 3-day RCR course through [NC TraCS](https://tracs.unc.edu/index.php/services/education/responsible-conduct-of-research)
 - [ ] Completed CITI training through [UNC](https://clinicalresearch.unc.edu/resources/training-and-education/citi-trainings/)
+
+Other
+
+- [ ] Develop a personal mission statement. Why are you here? Why do you want to do epidemiologic research?
+- [ ] Sign up for the *American Journal of Epidemiology* table of contents. You can also sign up for other journals
