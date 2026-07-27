@@ -13,38 +13,25 @@ persistence, and curiosity in order to improve it through reliable evidence. We 
 collaborative and interdisciplinary team that emphasizes transparency, reproducibility, creativity, and benevolence. 
 As part of this goal, we will challenge ourselves to be better researchers and people.
 
-## Expectations
-
-These are some general expectations of research group members, including myself:
-- Review all the materials provided at this webpage.
-- Adhere to the Code of Conduct.
-- Show up on time. Sometimes things happen which prevent timeliness, but do not make a habit of being late.
-- Complete your work on the agreed up timeline(s). Again, circumstances may prevent this but clearly communicate and
-do not make a habit of delays.
-- Do not attend research group meetings if you are sick. Please let me know if you will not attend, but take adequate 
-time to rest and return when you are recovered and healthy.
-- Use the `resources/project_checklist` when starting or proposing a new research project.
-- Maintain a lab notebook while conducting your research project.
-- Disclose use of AI/LLMs in accordance with the policies described in `ai_policy`.
-- Mistakes happen, especially when you are learning. Being able to trust each other is more important than never making
-a mistake. If you think you've made a mistake, please talk with me so we can learn from them. 
-- My working hours are 9-5 EST Monday through Friday. You are welcome to determine your own working hours, but note that
-I only expect responses during those hours and similarly you should only expect responses from me during those hours.
-Maintaining an appropriate work-life balance is important.
-- With written work that has a formal deadline, please provide to any co-authors or other parties at least 2 weeks 
-prior to the deadline.
-
 ## Group Materials
 
 - `presentations/`: folder containing continuing education presentations from research group meetings
 - `resources/`: folder containing relevant group-specific resources
 - `ai_policy`: details and policies on the use of large language models
 - `authorship`: guidelines and recommendations for authorship and roles on papers
-- `code_of_conduct`: Code of Conduct for research group members
+- `code_of_conduct`: Code of Conduct and expectations for research group members
 - `code_style_guide`: Code style guidelines for the ZETA research group
 - `lab_notebook`: Guidance for creation and maintenance of a laboratory notebook.
 - `new_student_checklist`: checklist of items that students joining the research group should consider completing
 - `software`: recommended software programs
+
+## Interacting with the Group Materials
+
+My intention behind using GitHub to manage these materials is to make them easily accessible, track how they are 
+modified, and allow you to suggest modifications. If you have ways to improve these materials or have suggestions,
+please feel free to create a new branch with your suggestions. Alternatively, you can raise an issue on the Issue tab
+and I can make the modifications myself. Overall this is a living, collaborative document between all of us in the 
+group.
 
 ## Meeting Structure
 
@@ -62,29 +49,23 @@ development. If you would like to suggest a reading, please email me or bring up
 An idea behind the choice of group meetings is to provide opportunities for peer-mentorship and feedback. 
 
 You may need additional time for an individual meeting beyond the research group meeting. If you need additional time, 
-I expect you to reach out to me. Please email me to schedule an individual meeting time as needed.
+I expect you to reach out to me. *Please email me to schedule an individual meeting time as needed*.
 
-## Communication
 
-For meetings, my preference is in-person meetings. Otherwise, please contact me via email (this is how I manage my 
-to-do list). 
+## Communications
+
+For meetings, my preference is in-person meetings. In you need me to help with something, are requesting feedback, or 
+would like to schedule a meeting, please contact me via email (this is how I manage my to-do list). 
+
 
 ## Recommendation Letters
 
-One aspect of my job is to help you succeed in your career. One aspect of that is writing recommendation letters. If 
+One aspect of my job is to help you succeed in your career. An aspect of that is writing recommendation letters. If 
 you are a research group member, I am always happy to provide a letter. There are a few steps that will help me to 
 write your letter listed here:
-- Provide details on the position you are applying for (can be the webpage or some other document). This will help me to
-align the letter with what the call for applications requests. If this is a grant, please also provide the aims page to
-me.
+- Provide details on the position you are applying for (can be the webpage or other document). This helps me to align 
+the letter with what the call for applications requests. If this is a grant, please also provide the aims page to me.
 - Provide the most recent copy of your CV.
 - Provide a list of any particular points you would like me to highlight in your letter.
 - Request a letter of recommendation from me noting the deadline. Please try your best to request the letter 4 weeks 
 before the deadline. This will ensure I have adequate time to draft the best letter that I can.
-
-## Interacting with the Group Materials
-
-My intention behind using GitHub to manage these materials is to make them easily accessible, track how they are 
-modified, and allow you to suggest modifications. If you have ways to improve these materials or have suggestions,
-please feel free to create a new branch with your suggestions. Alternatively, you can raise an issue on the Issue tab
-and I can make the modifications myself. Overall this is a living, collaborative document between all of us.
