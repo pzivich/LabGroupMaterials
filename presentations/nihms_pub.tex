@@ -1,0 +1,137 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Copenhagen}
+\usecolortheme{whale}
+\usefonttheme[onlymath]{serif}
+
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+\usepackage{empheq}
+\usepackage{fancybox}
+\usepackage{annotate-equations}
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc, shapes.geometric, shapes.multipart, 
+	shapes, arrows.meta, arrows, 
+	decorations.markings, external, trees}
+\tikzstyle{Arrow} = [
+thick, 
+decoration={
+	markings,
+	mark=at position 1 with {
+		\arrow[thick]{latex}
+	}
+}, 
+shorten >= 3pt, preaction = {decorate}
+]
+
+\definecolor{teel}{HTML}{00AEB3}
+\definecolor{redorange}{HTML}{F26035}
+\definecolor{darkred}{HTML}{8B0000}
+\definecolor{darkblue}{HTML}{00008B}
+\definecolor{darkgreen}{HTML}{06402B}
+\definecolor{CarolinaBlue}{HTML}{4B9CD3}
+\definecolor{deepsea}{HTML}{123456}
+\definecolor{sharedblue}{HTML}{009292}
+\definecolor{distalblue}{HTML}{490092}
+
+\usecolortheme[named=CarolinaBlue]{structure}
+
+
+\title[NIHMS]{Public-Access Compliance Through NIHMS}
+\author[Paul Zivich]{Zivich Research Group}
+\date{~}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}  % gets rid of the dumb navigation symbols
+\setbeamertemplate{page number in head/foot}{\insertframenumber}  % adds slide #
+\setbeamertemplate{headline}{}
+
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Public-Access}
+	You or your co-authors may receive NIH, NSF, or other funding
+	\begin{itemize}
+		\item That funding may be from tax-payers
+		\item So obligation to make our work available to the public
+		\begin{itemize}
+			\item Done through PMC (PubMed Central)
+		\end{itemize}
+		\item Important for grant progress reports
+		\begin{itemize}
+			\item Only those in the PMC process `count'
+		\end{itemize}
+	\end{itemize}
+	~\\
+	Done though NIHMS (NIH Manuscript Submission)
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		\includegraphics[width=0.95\linewidth]{images/pubmed_articles.png}	
+	\end{center}
+\end{frame}
+
+\begin{frame}{Initiating NIHMS Process}
+	Depending on the journal, they may initiate this process for you
+	\begin{itemize}
+		\item Less common now after July 2025 policy change
+		\item If publishing open-access some journals will
+	\end{itemize}
+	~\\
+	If journals do \textit{not} start the process, can initiate from PubMed
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		\includegraphics[width=0.95\linewidth]{images/nihms_1.png}	
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		\includegraphics[width=0.9\linewidth]{images/nihms_2.png}	
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		\includegraphics[width=0.92\linewidth]{images/nihms_3.png}	
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		\includegraphics[width=0.95\linewidth]{images/nihms_4.png}	
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		\includegraphics[width=0.99\linewidth]{images/nihms_6.png}	
+	\end{center}
+\end{frame}
+
+\begin{frame}{Updated PubMed Bibliography}
+	\begin{center}
+		\includegraphics[width=0.95\linewidth]{images/nihms_5.png}	
+	\end{center}
+\end{frame}
+
+
+\end{document}
