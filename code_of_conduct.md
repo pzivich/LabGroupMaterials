@@ -26,7 +26,8 @@ All members are expected to have the relevant CITI and IRB training for the ethi
 expect research group members to explore training opportunities in the Responsible Conduct of Research. Options are 
 available through NC TraCS.
 
-We adhere to the ICMJE authorship guidelines. See the `authorship.md` file for furth details.
+We adhere to the ICMJE authorship guidelines. See the `authorship.md` file for further details on guidelines for 
+authorship.
 
 ----
 
@@ -39,13 +40,13 @@ do not make a habit of delays.
 - Do not attend research group meetings if you are sick. Please let me know if you will not attend, but take adequate 
 time to rest and return when you are recovered and healthy.
 - My working hours are 9-5 EST Monday through Friday. You are welcome to determine your own working hours, but note that
-I only expect responses during those hours and similarly you should only expect responses from me during those hours.
+I only expect responses during those hours, and similarly you should only expect responses from me during those hours.
 Maintaining an appropriate work-life balance is important.
 
 ### PI
 
 I will 
-- Review your work in a timely manner. The maximum amount of time should be 2 weeks.
+- Review your work in a timely manner. The maximum amount of time will generally be 2 weeks.
 - Be timely for our scheduled meetings.
 - Do what I can to help you be successful in your career goals.
 - Introduce you to different contacts at conferences whom I know.

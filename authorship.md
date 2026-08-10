@@ -2,19 +2,20 @@
 
 The following are general guidelines for authorship. While these focus on papers developed within the research group,
 the general principles here extend more broadly. A big source of conflict is misunderstandings about authorship of 
-papers. These guidelines are meant to help reduce the occurrence of these misunderstandings.
+papers. These guidelines are meant to help reduce the occurrence of these misunderstandings or miscommunications.
 
 Within public health, authorship order generally aligns with decreasing effort/contributions except for the last 
 author, who is considered the 'senior' author. This differs from other fields, where order may be determined by other
-factors (e.g., economics is done alphabetically). Ensure that you understand the standards of your field. Hereafter, 
-is guidance for public health, epidemiology, and statistics papers.
+factors (e.g., economics is done alphabetically). Ensure that you understand the standards of the field. Hereafter, 
+is guidance for public health, epidemiology, and statistics papers. The relevant documentation for authorship criteria
+are the ICMJE (International Committee of Medical Journal Editors) guidelines.
 
 When developing a paper, a key step is to identify authors and the role they would be expected to play through the 
 manuscript development process. I recommend doing this at the start of the process for key authorship positions. Have
 a discussion with potential co-authors and communicate the expectations. Use this to form an authorship agreement, 
 preferably that is written so you can both revisit this document. Further, clarify that if the agreed upon role is not
 fulfilled, the lead author may replace that authorship position with someone who does. The following are some 
-suggestions about the role authors play.
+general suggestions about the role authors play.
 
 ---
 
@@ -33,31 +34,31 @@ does not support co-first-authors.
 
 ## Second Author
 
-The role of second author tends to be more variable across fields and groups. Within the group, the second author is 
-expected to play a more substantial role in ensuring reproducibility of the scientific results. In particular, these
-are recommended expectations for the second author:
+The role of second author tends to be more variable across fields and groups. Within my group, the second author is 
+expected to play a more substantial role in ensuring reproducibility of the scientific results than most other 
+research groups. In particular, these are recommended expectations for the second author:
 - Contribute to the analysis. This role can involve double-coding (recommended), developing code in a secondary 
 programming language, code review, or algorithm review.
-- Preliminary review of the manuscript before all other authors
+- Preliminary review of the manuscript before other authors.
 - Close communication with the first author in revisions based on co-author feedback or responding to peer-reviewers.
 - Double check article proofs after the first author for errors.
 - Meet on a regular basis with the first author.
 
 ## Last Author
 
-The last author is the spot for the primary mentor or a PI (Principal Investigator) would have led the overarching 
+The last author is the spot for the primary mentor or a PI (Principal Investigator) who has led the overarching 
 project in some way. Depending on the topic and the manuscript, this is the role I would play as your mentor. This 
 role is a bit more variable and project specific. In general, the senior author should be someone who:
 - Provides primary mentorship in the development of the paper. In particular, they might review early drafts before 
 other co-authors.
 - Coordinate funding or data access.
-- Can also handle contact with a journal and be corresponding author.
-- Ensures the integrity of the overall research.
+- May also handle contact with a journal and be corresponding author for a manuscript.
+- Ensures the overall integrity of the research.
 
 ## Other Authors
 
 Outside of these positions, expectations are less well-defined. However, all authors should adhere to the ICMJE
-(International Committee of Medical Journal Editors) guidelines of:
+guidelines of:
 - Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of 
 data for the work; AND
 - Drafting the work or reviewing it critically for important intellectual content; AND
@@ -65,4 +66,5 @@ data for the work; AND
 - Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or 
 integrity of any part of the work are appropriately investigated and resolved. 
 
-Order should be based on the extent of contributions, going from most to least.
+Order should be based on the extent of contributions, going from most to least. Note that there is occasionally 
+politics in this process. 

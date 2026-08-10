@@ -1,5 +1,8 @@
 # ZETA Research Group Materials
 
+This folder contains a collection of different resources for the research group. Feel free to propose modifications or
+additions.
+
 ---
 
 ## Files

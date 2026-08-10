@@ -21,7 +21,7 @@ https://pubmed.ncbi.nlm.nih.gov/39570678/
 - Liu et al. (2012). Implications of M bias in epidemiologic studies: a simulation study. 
 *American Journal of Epidemiology*, 176(10), 938-948. https://pubmed.ncbi.nlm.nih.gov/23100247/
 
-## Statistical Methods
+## Computational Methods
 
 - Cole SR, Chu H, & Greenland S. (2014). Maximum likelihood, profile likelihood, and penalized likelihood: a primer. 
 *American Journal of Epidemiology*, 179(2), 252-260. https://pubmed.ncbi.nlm.nih.gov/24173548/

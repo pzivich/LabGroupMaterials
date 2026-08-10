@@ -8,8 +8,14 @@ of information for you to know.
 
 ## Files
 
+`academic_positions.*`
+- Description of different academic positions and titles commonly used at US institutions.
+
 `intro_to_arxiv.*`
 - Introduction to the pre-print server arXiv.
+
+`nihms_pub.*`
+- Overview of how to submit NIH-funded publications to the NIH Manuscript Submission System.
 
 `predatory_publishers.*`
 - Discussion of predatory journals and predatory conferences, including how to identify them.

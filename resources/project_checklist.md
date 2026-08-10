@@ -3,8 +3,8 @@
 ## Instructions
 
 The following is a segmented checklist for research projects. The **purpose** behind this checklist is to help ensure 
-the readiness, efficiency, and validity of a research project. This checklist was inspired by pre-flight checklists for 
-air travel. 
+the readiness, efficiency, and validity of a research project. This checklist was inspired by pre-flight checklists used
+by pilots for air travel. 
 
 This checklist is split into three parts that are meant to be completed at different stages: pre-project, 
 pre-submission, and post-acceptance. The pre-project phase corresponds to the development of your research idea. It 
@@ -31,19 +31,19 @@ This phase comes before drafting, data acquisition, or data analysis. This step 
 appropriately scoped, novel to warrant publication, and is ready to be developed further.
 
 - [ ] Specified a scientific question or developed a specific aim or goal
-  - Details: ``` ```
+  - Details: ```...```
 - [ ] If applied analysis, goal is clearly described as descriptive, predictive, or causal
 - [ ] Reviewed the existing literature and identified relevant or related publications on the topic and identified a gap
-  - Details: ``` ```
-- [ ] Discussed proposal with advisor and other relevant stakeholders
+  - Details: ```...```
+- [ ] Discussed proposal with advisor and other relevant individuals
 - [ ] Identified reporting guideline (e.g., STROBE, RECORD, PRISMA, TRIPOD)
 - [ ] Identified data for use. Determined whether data-use agreement, ethical approval, or other items are needed
 - [ ] Completed data-use agreement, ethical approval
-  - Ethical Approval ID: ``` ```
+  - Ethical Approval ID: ```...```
 - [ ] Setup project folder, lab notebook, and repository (if needed)
 - [ ] Identified potential co-authors. Have outlined and discussed expectations with first, second, and last author.
 - [ ] Considered pre-registration (e.g., OSF, PROSPERO) for the project
-  - Details: ``` ```
+  - Details: ```...```
 
 ---
 
@@ -59,20 +59,21 @@ approved of the submission to a journal.
 - [ ] Cover letter drafted, states novelty/significance clearly
 - [ ] Corresponding code (and if possible sharable data) are prepared for a repository
 - [ ] Preprint decision made
-  - Details: ``` ```
+  - Details: ```...```
 
 ---
 
 ## Post-Acceptance
 
-Congrats! If you made it to this step, it means your paper has been accepted. This can be quite a process, so don't 
-forget to celebrate (not part of this checklist). There are a few remaining steps to go that are still important steps 
-in the scientific publication process detailed here. 
+Congrats! If you made it to this step, it means your paper has been accepted. Taking an idea from its conception to a 
+publication can be quite a process, so don't forget to celebrate. There are a few remaining steps to go that are still 
+important steps in the scientific publication process detailed here. 
 
-- [ ] Notify collaborators of publication acceptance and send formatted reference
+- [ ] Notify collaborators of publication acceptance and send formatted reference for the paper
+- [ ] Celebrate!
 - [ ] Copyright or license agreement completed
 - [ ] Initiate the NIHMS submission process (if not done by the journal)
 - [ ] Verify the article proofs, with additional verification by second or senior author
 - [ ] If posted a preprint, update with the published DOI as indicated
 - [ ] Update CV to include publication
-- [ ] Archive associated files for long-term
+- [ ] Archive associated files for long-term storage and reference
