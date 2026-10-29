@@ -23,6 +23,7 @@ general suggestions about the role authors play.
 
 The first author is expected to:
 - Lead development of the project, methods choices, and data analysis.
+- Responsible for record keeping (e.g., lab notebook)
 - Primarily responsible for drafting and revising the manuscript in response to co-author feedback.
 - Coordinating communications with co-authors and journals, and is the primary contact.
 - Submission of the manuscript to a journal and managing the peer-review and revision process.
