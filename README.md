@@ -62,6 +62,19 @@ For meetings, my preference is in-person meetings. In you need me to help with s
 would like to schedule a meeting, please contact me via email (this is how I manage my to-do list). 
 
 
+## Requirements
+
+Many of the materials and statements provided here are *recommendations* rather than *requirements*. My choice to 
+lean towards recommendations is to allow you flexibility and opportunity to develop your own way of meeting your goals. 
+Consider many of the recommendations provided here as a foundation that you can adapt or build on in your own way. 
+However, a few aspects of the materials are requirements, such that I expect you to follow them. For ease, I summarize 
+these required items here:
+* Treat all lab group members and visitors with respect and dignity. See `code_of_conduct/md`
+* Complete the goals document and be prepared to discuss each semester. See `resources/goals_document.md`
+* Adhere to the lab group AI policy. See `ai_policy.md` for details.
+* Adhere to all UNC policies, especially those for ethics, behavior, and research conduct.
+
+
 ## Recommendation Letters
 
 One aspect of my job is to help you succeed in your career. One aspect of that is writing recommendation letters. If 
