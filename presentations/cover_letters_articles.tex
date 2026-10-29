@@ -1,0 +1,132 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Copenhagen}
+\usecolortheme{whale}
+\usefonttheme[onlymath]{serif}
+
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+\usepackage{empheq}
+\usepackage{fancybox}
+\usepackage{annotate-equations}
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc, shapes.geometric, shapes.multipart, 
+	shapes, arrows.meta, arrows, 
+	decorations.markings, external, trees}
+\tikzstyle{Arrow} = [
+thick, 
+decoration={
+	markings,
+	mark=at position 1 with {
+		\arrow[thick]{latex}
+	}
+}, 
+shorten >= 3pt, preaction = {decorate}
+]
+
+\definecolor{teel}{HTML}{00AEB3}
+\definecolor{redorange}{HTML}{F26035}
+\definecolor{darkred}{HTML}{8B0000}
+\definecolor{darkblue}{HTML}{00008B}
+\definecolor{darkgreen}{HTML}{06402B}
+\definecolor{CarolinaBlue}{HTML}{4B9CD3}
+\definecolor{deepsea}{HTML}{123456}
+\definecolor{sharedblue}{HTML}{009292}
+\definecolor{distalblue}{HTML}{490092}
+
+\usecolortheme[named=CarolinaBlue]{structure}
+
+
+\title[Academia]{Writing Cover Letters for Journal Submissions}
+\author[Paul Zivich]{Zivich Research Group}
+\date{~}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}  % gets rid of the dumb navigation symbols
+\setbeamertemplate{page number in head/foot}{\insertframenumber}  % adds slide #
+\setbeamertemplate{headline}{}
+
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Cover Letters}
+	Most journals require submission of a cover letter
+	\begin{itemize}
+		\item This is an opportunity to highlight aspects of your paper in a more casual way
+		\item Explain why your paper is relevant to that journal
+		\item Upon resubmissions communicate information not shared with reviewers
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Format}
+	\begin{itemize}
+		\item Find letterhead for your institution
+		\item Address letter to that journal specifically and editor
+		\begin{itemize}
+			\item Initial submission: look up editor(s)-in-chief
+			\item Resubmission: managining editor
+		\end{itemize}
+		\item Have you title and signature for sign-off
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{One Recipe for Writing}
+	The following is the meta structure I follow. It has worked well for me, but others might use different structures
+	\begin{itemize}
+		\item Paragraph 1:
+		\begin{itemize}
+			\item Preamble. Introduce title of paper, state journal and article type, any author contribution statement as required by journal
+		\end{itemize}
+		\item Paragraph 2:
+		\begin{itemize}
+			\item Highlight gap(s) in prior research, how your paper addresses them
+		\end{itemize}
+		\item Paragraph 3:
+		\begin{itemize}
+			\item State why your paper is of interest to readership of that journal. Provide 3-5 specific points about why readers will care
+			\item Helpful to review aims of journal online
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Paragraph 1}
+	Example
+	\begin{itemize}
+		\item``We are pleased to submit our manuscript entitled `\textit{[paper title]}' as a \textit{[article type]} for exclusive consideration in \textit{[Journal]}. All authors contributed to and approve of its submission \textit{[or description of who contributed to what aspect]}"
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Paragraph 2}
+	Example
+	\begin{itemize}
+		\item ``A fundamental challenge in \textit{[topic area]} is to \textit{[problem]}. Prior research has \textit{[concise summary based on introduction]}. To address this challenge, we \textit{[how you address the problem introduced]}. 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Paragraph 3}
+	Example:
+	\begin{itemize}
+		\item ``Our work will be of intersted to the readership of \textit{[Journal]}. First, our manuscript \textit{[summarize how problem is addressed, why their readership cares about that problem]}. Next, we \textit{[strength of your paper]}. Finally, we \textit{[connection to aims of journal]}. Thank you for your consideration of our work."
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Questions?}
+	~
+\end{frame}
+
+\end{document}
