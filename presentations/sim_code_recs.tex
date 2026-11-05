@@ -1,0 +1,194 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Copenhagen}
+\usecolortheme{whale}
+\usefonttheme[onlymath]{serif}
+
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+\usepackage{empheq}
+\usepackage{fancybox}
+\usepackage{annotate-equations}
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc, shapes.geometric, shapes.multipart, 
+	shapes, arrows.meta, arrows, 
+	decorations.markings, external, trees}
+\tikzstyle{Arrow} = [
+thick, 
+decoration={
+	markings,
+	mark=at position 1 with {
+		\arrow[thick]{latex}
+	}
+}, 
+shorten >= 3pt, preaction = {decorate}
+]
+
+\definecolor{teel}{HTML}{00AEB3}
+\definecolor{redorange}{HTML}{F26035}
+\definecolor{darkred}{HTML}{8B0000}
+\definecolor{darkblue}{HTML}{00008B}
+\definecolor{darkgreen}{HTML}{06402B}
+\definecolor{CarolinaBlue}{HTML}{4B9CD3}
+\definecolor{deepsea}{HTML}{123456}
+\definecolor{sharedblue}{HTML}{009292}
+\definecolor{distalblue}{HTML}{490092}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\usecolortheme[named=CarolinaBlue]{structure}
+
+\lstdefinestyle{mystyle}{
+	language=Python,
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\scriptsize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+\title[Simulation Code]{Organizing Code for Simulation Studies}
+\author[Paul Zivich]{Zivich Research Group}
+\date{~}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}  % gets rid of the dumb navigation symbols
+\setbeamertemplate{page number in head/foot}{\insertframenumber}  % adds slide #
+\setbeamertemplate{headline}{}
+
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Simulation Studies}
+	Simulation studies are a key aspect of methods work
+	\begin{itemize}
+		\item Verify expected statistical behaviors
+		\item Illustrate important concepts
+		\item Compare finite-sample performance between competing methods
+		\item Check whether code works as intended
+		\item Perform power calculations
+	\end{itemize}
+	~\\
+	Scenario should guide choices like: data generating mechanism, performance metrics, etc.
+	\begin{itemize}
+		\item Once those are decided, consider implementation
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Code Organization}
+	An organization to consider
+	~\\~\\
+	\texttt{\noindent Project/ \\
+		\qquad Code/ \\
+		\qquad\qquad output/ \\
+		\qquad\qquad data\_generating\_mechanism.file \\
+		\qquad\qquad estimators.file \\
+		\qquad\qquad compute\_truth.file \\
+		\qquad\qquad run\_simulation\_scenarios.file \\
+		\qquad\qquad analyze\_scenarios.file \\
+		\qquad\qquad helper.file \\
+	}
+	~\\~\\
+	\textbf{Philosophy}: each aspect lives in own file, so any changes carry forward everywhere
+\end{frame}
+
+\begin{frame}{Data Generating Mechanism}
+	Script contains all functionality to generate simulated data
+	\begin{itemize}
+		\item Functions to generate truth and observed data
+		\item One overall function to generate complete data set
+		\begin{itemize}
+			\item Basic argument to include: $n$, sample size
+			\item Optional: scenario when have many options
+		\end{itemize}
+		\item Other functions can be included, but only the overall constructor should be imported elsewhere
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Estimators}
+	Script containing all estimators under consideration
+	\begin{itemize}
+		\item Separate functions for each estimator
+		\item Generic inputs for future flexibility
+	\end{itemize}
+	~\\
+	Helper functions
+	\begin{itemize}
+		\item Script that contains any helper functions you might need for a simulation
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Running Simulations}
+	Compute the truth
+	\begin{itemize}
+		\item Own script that computes the truth and saves it as a reference (like in \texttt{output})
+	\end{itemize}
+	~\\
+	Simulation scenarios
+	\begin{itemize}
+		\item Exact organization depends on run-time
+		\item Best to have a general script
+		\begin{itemize}
+			\item Script has a key variable which determines the scenario
+		\end{itemize}
+		\item Only calls in objects from other files
+		\item Saves all simulation outputs to \texttt{output/}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Analyze Outputs}
+	Separate script that
+	\begin{itemize}
+		\item Loads in results from \texttt{output}
+		\item Creates all summary tables and figures
+	\end{itemize} 
+\end{frame}
+
+\begin{frame}{Example}
+	A basic (bad) example: \\
+	\url{github.com/pzivich/publications-code/tree/master/ClusteringEE/simulations}
+	~\\~\\
+	A basic (good) example: \\
+	\url{github.com/pzivich/publications-code/tree/master/PooledLogitEE/sims}
+	~\\~\\
+	A complex (good) example: \\
+	\url{github.com/pzivich/publications-code/tree/master/CausalRNG}
+\end{frame}
+
+\begin{frame}{Questions?}
+	~
+\end{frame}
+
+\end{document}
